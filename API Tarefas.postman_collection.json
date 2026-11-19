@@ -1,0 +1,49 @@
+{
+  "info": {
+    "_postman_id": "2db60f0d-4373-49d8-b6f7-7b04d59d2f6d",
+    "name": "API Tarefas",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60296610",
+    "_collection_link": "https://go.postman.co/collection/60296610-2db60f0d-4373-49d8-b6f7-7b04d59d2f6d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Criar tarefa",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": ""
+    }
+  ]
+}
